@@ -1,32 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
-  background-color: #282828;
+--bg-dark: oklch(0.1 0 20);
+--bg: oklch(0.15 0 20);
+--bg-light: oklch(0.2 0 20);
+--text: oklch(0.96 0 20);
+--text-muted: oklch(0.76 0 20);
+--highlight: oklch(0.5 0 20);
+--border: oklch(0.4 0 20);
+--border-muted: oklch(0.3 0 20);
+--primary: oklch(0.76 0.1 20);
+--secondary: oklch(0.76 0.1 200);
+--danger: oklch(0.7 0.05 30);
+--warning: oklch(0.7 0.05 100);
+--success: oklch(0.7 0.05 160);
+--info: oklch(0.7 0.05 260);
 }
-
 
 
 body {
   font-family: "Google Sans Code", monospace;
   font-optical-sizing: auto;
   font-style: normal;
-  background-color: #282828;
-  color: #83a598;
-  font-size: 18px;
+  background-color: var(--bg);
+  color: var(--text);
+  font-size: 1.2rem;
   margin: 150px;
   text-decoration: none;
 }
 
 a {
   text-decoration: none;
-  color: #8ec07c;
+  color: var(--highlight);
 }
 
 
 h1,
 h2,
 h3 {
-  color: #fb4934;
+  color: var(--primary);
   size: 30px;
 }
 
@@ -64,13 +76,13 @@ h3 {
   justify-content: space-between;
   align-items: center;
   gap: 40px;
-  border-bottom: 1px solid #4c566a;
+  border-bottom: 1px solid var(--success);
   padding-bottom: 40px;
 }
 
 iframe {
     border-radius: 12px;
-    border: 2px solid #3c3836;
+    border: 2px solid var(--border);
     pointer-events: none;
     user-select: none;
 }
@@ -89,12 +101,12 @@ iframe {
 }
 
 .skills span {
-  border: 1px solid #ebdbb2;
-  color: #fbf1c7;
+  border: 1px solid var(--border);
+  color: var(--text);
   padding: 4px 12px;
-  font-size: 14px;
+  font-size: 0.9rem;
   background: none;
-  border-radius: 0;
+  border-radius: 15px;
 }
 
 /* responsiveness shit */
