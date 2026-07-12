@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+--bg-dark: oklch(0.1 0 20);
+--bg: oklch(0.15 0 20);
+--bg-light: oklch(0.2 0 20);
+--text: oklch(0.96 0 20);
+--text-muted: oklch(0.76 0 20);
+--highlight: oklch(0.5 0 20);
+--border: oklch(0.4 0 20);
+--border-muted: oklch(0.3 0 20);
+--primary: oklch(0.76 0.1 20);
+--secondary: oklch(0.76 0.1 200);
+--danger: oklch(0.7 0.05 30);
+--warning: oklch(0.7 0.05 100);
+--success: oklch(0.7 0.05 160);
+--info: oklch(0.7 0.05 260);
+}
+
+
+body {
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: var(--bg);
+  color: var(--text);
+  font-size: 1.2rem;
+  margin: 150px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--highlight);
+}
+
+
+h1,
+h2,
+h3 {
+  color: var(--primary);
+  size: 30px;
+}
+
+.intro {
+  font-style: bold;
+}
+
+.intro-img {
+  align-self: center
+}
+
+.intro-img img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.intro-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  border-bottom: 1px solid var(--success);
+  padding-bottom: 40px;
+}
+
+iframe {
+    border-radius: 12px;
+    border: 2px solid var(--border);
+    pointer-events: none;
+    user-select: none;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills span {
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 4px 12px;
+  font-size: 0.9rem;
+  background: none;
+  border-radius: 15px;
+}
+
+/* responsiveness shit */
+@media (max-width: 768px) {
+  body {
+    margin: 20px;
+  }
+
+  .intro-container {
+    flex-direction: column;
+  }
+
+  .intro-img img {
+    width: 200px;
+  }
+
+  .project-card {
+    flex-direction: column;
+
+    iframe {
+      width: 100%;
+      height: 200px;
+    }
+  }
+}
