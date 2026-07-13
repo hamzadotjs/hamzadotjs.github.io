@@ -36,8 +36,7 @@ src/
 
 ## Status
 
-🚧 Work in progress — migrating from the static HTML version.
-
+✅ Done, but Can be improved over time
 ## License
 
 See [LICENSE](./LICENSE).
