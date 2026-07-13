@@ -23,8 +23,15 @@ src/
 ├── App.jsx
 ├── main.jsx
 ├── Header.jsx
-├── colors.css      # theme variables
-└── style.css        # global styles
+├── About.jsx
+├── Projects.jsx
+├── assets/
+│   ├── hero.png
+│   ├── pfp.jpg
+│   └── ...
+└── styles/
+    ├── colors.css
+    └── style.css
 ```
 
 ## Status
