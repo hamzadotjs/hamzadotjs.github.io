@@ -8,15 +8,13 @@ function About() {
     </div>
     <h2>Skills</h2>
     <div className="skills">
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>sh</span>
-        <span>zsh</span>
-        <span>Linux</span>
-        <span>Python</span>
-        <span>C++ (learning)</span>
-        <span>Emacs (learning)</span>
-        <span>JavaScript (learning)</span>
+        <span><i class="fa-brands fa-html5"></i> HTML</span>
+        <span><i class="fa-brands fa-css"></i>CSS</span>
+        <span><i class="fa-solid fa-terminal"></i> shell</span>
+        <span><i class="fa-brands fa-linux"></i> Linux</span>
+        <span><i class="fa-brands fa-python"></i> Python</span>
+        <span><i class="fa-brands fa-square-js"></i> JavaScript</span>
+        <span><i class="fa-brands fa-react"></i> React</span>
      </div>
   </div>
     )
