@@ -19,7 +19,7 @@ function Header() {
         <a href="https://wa.me/2001012855203" target="_blank"><i className="fa-brands fa-whatsapp"></i></a>
       </div>
       <h2>Title:</h2>
-      <p>I use Arch, btw</p>
+      <p>I use Void, btw</p>
     </div>
     <div className="intro-img">
       <img src={pfpImg} alt="pfp" />

@@ -15,11 +15,11 @@ function Projects() {
 
         <div className="project-card">
           <div className="project-info">
-            <h3>DevNotesHub</h3>
-            <p>A clean notes webapp to jot down and organize your thoughts.</p>
-            <a href="https://hamzadotjs.github.io/Notes-App/" target="_blank">Visit →</a>
+            <h3>Fetcher</h3>
+            <p>A neofetch alternative for the folks who got sick of editing jsonc files.</p>
+            <a href="https://github.com/hamzadotjs/fetcher" target="_blank">Repo →</a>
           </div>
-          <iframe src="https://hamzadotjs.github.io/Notes-App/" width="500" height="300"></iframe>
+          <img src="./assets/fetcher.png" width="500" height="300">
         </div>
 
         <div className="project-card">
@@ -30,6 +30,16 @@ function Projects() {
           </div>
           <iframe src="https://hamzadotjs.github.io/studying" width="500" height="300"></iframe>
         </div>
+    
+        <div className="project-card">
+          <div className="project-info">
+            <h3>Web Generator</h3>
+            <p>webgen for short, is a simple utility to make websites in plain html and css that look like this one, batteries included.</p>
+            <a href="https://github.com/hamzadotjs/webgen" target="_blank">Repo →</a>
+          </div>
+        <<img src="./assets/webgen.png" alt="Webgen screenshot">
+        </div>
+    
 
         <div className="project-card">
           <div className="project-info">
