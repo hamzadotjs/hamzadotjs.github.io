@@ -1,16 +1,16 @@
 :root{
-    --bg-dark: hsl(208 100% 2%);
-    --bg: hsl(198 100% 3%);
-    --bg-light: hsl(193 100% 5%);
-    --text: hsl(193 100% 88%);
-    --text-muted: hsl(193 64% 61%);
-    --highlight: hsl(189 100% 21%);
-    --border: hsl(190 100% 13%);
-    --border-muted: hsl(192 100% 8%);
-    --primary: hsl(193 64% 61%);
-    --secondary: hsl(14 69% 71%);
-    --danger: hsl(9 53% 66%);
-    --warning: hsl(51 35% 50%);
-    --success: hsl(149 34% 54%);
-    --info: hsl(217 59% 67%); 
+    --bg-dark: hsl(225 9% 6%);
+    --bg: hsl(225 9% 9%);
+    --bg-light: hsl(224 12% 17%);
+    --text: hsl(229 31% 93%);
+    --text-muted: hsl(226 12% 66%);
+    --highlight: hsl(226 10% 26%);
+    --border: hsl(224 10% 21%);
+    --border-muted: hsl(225 9% 13%);
+    --primary: hsl(226 22% 80%);
+    --secondary: hsl(262 15% 76%);
+    --danger: hsl(339 62% 70%);
+    --warning: hsl(22 62% 72%);
+    --success: hsl(142 40% 70%);
+    --info: hsl(217 52% 74%);
 }
