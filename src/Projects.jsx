@@ -1,3 +1,6 @@
+import fetcherImg from './assets/fetcher.png'
+import webgenImg from './assets/webgen.png'
+
 function Projects() {
   return (
     <div>
@@ -19,7 +22,7 @@ function Projects() {
             <p>A neofetch alternative for the folks who got sick of editing jsonc files.</p>
             <a href="https://github.com/hamzadotjs/fetcher" target="_blank">Repo →</a>
           </div>
-          <img src="./assets/fetcher.png" width="500" height="300">
+          <img src={fetcherImg} width="500" height="300" alt="Fetcher screenshot" />
         </div>
 
         <div className="project-card">
@@ -37,7 +40,7 @@ function Projects() {
             <p>webgen for short, is a simple utility to make websites in plain html and css that look like this one, batteries included.</p>
             <a href="https://github.com/hamzadotjs/webgen" target="_blank">Repo →</a>
           </div>
-        <<img src="./assets/webgen.png" alt="Webgen screenshot">
+        <img src={webgenImg} alt="Webgen screenshot" />
         </div>
     
 
@@ -53,6 +56,6 @@ function Projects() {
       </div>
     </div>
   )
-}
+};
 
 export default Projects
