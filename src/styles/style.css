@@ -47,6 +47,12 @@ h3 {
   max-width: 1200px;
 }
 
+.githubstats img {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px; /* Adjust this value to make the gap bigger or smaller */
+}
+
 .projects {
   display: flex;
   flex-direction: column;
